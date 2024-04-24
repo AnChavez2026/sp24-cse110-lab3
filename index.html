@@ -8,57 +8,68 @@
       <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
       <link rel="manifest" href="favicon/site.webmanifest">
       <link rel="icon" href="favicon/favicon.ico">
+      <link rel="stylesheet" href="/style/main.css">
       <title>Meeting Minutes</title>
   </head>
-
+  
   <body>
+
     <header>
-      <h1>Meeting Minutes</h1>
-      <h2>Lab 2: brainstorming</h2>
-      <time>2024-04-12</time>
-
-      <details>
-        <summary>Attendance List</summary>
-          <ul>
-            <li><span class="Leader"></span>Manu Bhat</li>
-            <li><span class="leader"></span>Pranav Mehta</li>
-            <li>Angelo Avanzado</li>
-            <li>Arjun Suresh Kumar</li>
-            <li>Ekin Celik</li>
-            <li>Jason Ho</li>
-            <li>Luis Pina</li>
-            <li>Santiago Duque</li>
-            <li>Smruthi Gowtham</li>
-            <li>Viann Perez</li>
-            <li>Angel Chavez</li>
-          </ul>
-        </details>
-
+      <h1> <em style="font-family: 'Madimi One'"> Meeting Minutes</em></h1>
+      <nav>
+        <ul class="nav_list">
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#notes">Notes</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </nav>
+      <h2>Lab 2: brainstorming </h2>
+      <h2>Date: <em>April 12, 2024</em></h2>
+      <hr>
     </header>
 
-    <hr>
-
     <main>
-      <p>
-        The main highlights from the meeting held on April 10th, 2024, are outlined below. Angel Chavez
-        served as the primary speaker for this session.
-
-      </p>
-      <section>
-        <h3>Today's Agenda</h3>
-        <ol>
-          <li>Ice Breaker</li>
-          <li>Project Brainstorm</li>
-          <li>Project <strong>Design</strong></li>
-          <li>Project <i>Implementation</i></li>
-          <li>Project <b class="n/a">Testing</b></li>
-        </ol>
+      <section class="flex_lists">
+        <section id="event_logs">
+          <h2>Attendance: </h2>
+          <ul id="attendance">
+                <ul id="attendance">
+                  <li><span class="Leader"></span>Manu Bhat</li>
+                  <li><span class="leader"></span>Pranav Mehta</li>
+                  <li>Angelo Avanzado</li>
+                  <li>Arjun Suresh Kumar</li>
+                  <li>Angel Chavez</li>
+            
+                </ul>
+         </section>
+              <section id="agenda">
+                <h2>Today's Agenda</h2>
+              <ol>
+                <li>Ice Breaker</li>
+                <li>Project Brainstorm</li>
+                <li>Project <strong>Design</strong></li>
+                <li>Project <i>Implementation</i></li>
+                <li>Project <b class="n/a">Testing</b></li>
+              </ol>
+              </section>
+              <section id="important_reminders">
+                <h2>Important Reminders</h2>
+                <ol>
+                  <li>Complete finalization of the project budget by Friday, led by Manu.</li>
+                  <li>Draft the marketing plan, led by Angelo, and circulate it for review by next Monday.</li>
+                  <li>Conduct user testing and submit findings by the end of the month, as per the team's responsibility.</li>
+                  <li>Engage in brainstorming sessions to generate ideas for enhancing project efficiency.</li>
+                  <li>Allocate responsibilities for the upcoming week.</li>
+                </ol>
+              </section>
       </section>
 
       <hr>
 
       <section>
-        <div class="Previous Meeting">
+        <div class="text_topic">
           <h3>Last Meeting Recap</h3>
               <details>
                   <summary>
@@ -71,40 +82,70 @@
         </div>
       </section>
 
+      <hr>
+
       <section>
+        <div class="text_topic">
         <h2 id="notes">Notes</h2>
+        <p>
+          The main highlights from the meeting held on April 10th, 2024, are outlined below. Angel Chavez
+          served as the primary speaker for this session.
+
+        </p>
+
         <img class="diagram" src="https://assets-global.website-files.com/6529762860f5d2796d4eb495/65e856e1a02c438ec6f2c06f_waterfall%20model-software%20engineering%20agency%20in%20USA-grorapidlabs.png" width="500"
         alt="Diagram the waterfall model">
         <footer>
           <p>Diagram used when talking about process of Implementation</p>
         </footer>
+        
+
+      <hr>
 
         <h3>Emerging Matters Discussed During This Meeting</h3>
         <p>We need to start the project its due in an hour</p>
 
+      </div>
+
       </section>
 
-      <h3>Meeting Video and Audio Recording:</h3>
-      <figure>
-        <figcaption>Watch or listen to "incremental model | software engineering | " by Education 4u:</figcaption>
+      <hr>
 
-        <video controls width="250">
-          <source src="Media/video.mp4" type="video/webm">
-          <source src="Media/video.mp4" type="video/mp4">
-        </video>
-  
-        <br>
+      <section id="media">
+        <h2 class="text_topic">Meeting Video and Audio Recording</h2>
+        <section id="quarterly_media">
+          <section id="quarterly_report_vid" class="visuals">
+            <h3>Recorded Meeting</h3>
+            <video controls id="talking_vid">
+              <source src="Media/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="visuals">Extra Text</p>
+            <p id="invisible_txt">Should be invisable</p>
+          </section>
+          <section class="visual_summaries">
+            <div class="text_topic">
+            <h3 style="margin-bottom: .25in;">Important Conversation</h3>
+          <audio controls>
+            <source src="Media/audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+          </audio>
+          <p class="visuals">Extra Txt</p>
+          <details>
+            <summary>Transcript</summary>
+            <p>blah blah blah.</p>
+          </details>
+        </div>
+        </section>
+        </section>
+        </section>
+        <section id="audio_recording">
+          
+      </section>
 
-        <audio controls src="Media/audio.mp3"></audio>
-        <a href="Media/audio.mp3"> Download audio </a>
-      </figure>
-      <footer>
-        <p>Credits: Education 4u <a href="https://www.youtube.com/watch?v=DZtJTwWu9rs&ab_channel=Education4u">
-          https://www.youtube.com/watch?v=DZtJTwWu9rs&ab_channel=Education4u</a></p>
-      </footer>
-    </main>
 
     <footer>
+      <section id="feedback">
       <fieldset>
       <p>How was the meeting? Let's delve into learning more about you.</p>
       <div class="randomQ">
@@ -147,6 +188,7 @@
         
       </form>
       </fieldset>
+    </section>
     </footer>
 
     <nav class="Author's Page">
