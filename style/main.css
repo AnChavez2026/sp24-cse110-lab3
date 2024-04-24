@@ -1,26 +1,33 @@
+/* Set default text color for all elements */
 * {
   color:#b2bfc2
 }
 
+/* Set background color for the entire page */
 body {
   background-color: #4b4b52;
 }
 
+/* Style for the header */
 header {
   background-color: #2C2E3A;
   border-radius: .5em;
 }
 
+/* Styling for the navigation list */
 .nav_list {
   display: flex;
   list-style-type: none;
   float: right;
 }
 
+
+/* Styling for italic elements */
 i {
   color: var(--i-color, rgb(24, 18, 116));
 }
 
+/* Styling for each navigation item */
 .nav_list li {
   display: block;
   margin-right: 25px;
@@ -63,6 +70,7 @@ i {
 
 }
 
+/* Styling for quarterly media */
 #quarterly_media {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,6 +94,7 @@ i {
   background-color: #141619;
 }
 
+/* Hide visuals by default */
 p.visuals {
   display: none;
 }
@@ -94,7 +103,7 @@ p[id] {
   display: none;
 }
 
-
+/* Styling for the talking video */
 #talking_vid {
   width: 100%;
   height: auto;
